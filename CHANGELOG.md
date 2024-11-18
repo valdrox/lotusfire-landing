@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/valdrox/lotusfire-landing/compare/v1.0.0...v1.1.0) (2024-11-18)
+
+
+### Features
+
+* **landing:** improves feature cards ([802456a](https://github.com/valdrox/lotusfire-landing/commit/802456abf27dc8838014550b3546b99be2ac82ce))
+* **landing:** simple content banner ([54fabe4](https://github.com/valdrox/lotusfire-landing/commit/54fabe44a5135436c7503cc9ead998b80fdf795b))
+
 # 1.0.0 (2024-11-18)
 
 
