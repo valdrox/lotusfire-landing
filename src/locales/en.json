@@ -27,10 +27,14 @@
     "section_subtitle": "功能 - Features",
     "section_title": "Discover Lotusfire",
     "section_description": "隨時隨地學習英語，不再害怕全英文",
-    "feature1_title": "自動單字推薦 - Automatic Vocabulary Suggestions",
-    "feature2_title": "雙語內容 - Bilingual Content",
-    "feature3_title": "單字庫 - Personal Vocabulary Library",
-    "feature4_title": "專屬單字庫 - Custom Vocabulary Lists",
+    "feature1_title": "不再害怕全英文 - Gradual introduction of words",
+    "feature1_description": "點一下英文單字馬上出現中文翻譯 + 聽發音。",
+    "feature2_title": "邊滑手機邊收集單字 - Keep using your device as is",
+    "feature2_description": "閱讀中文內容時自動推薦適當程度的單字，無時無刻都是學習的機會。",
+    "feature3_title": "精選雙語內容 - Curated bilingual vocab sets",
+    "feature3_description": "每日根據你挑選的主題推薦最新中英文文章。",
+    "feature4_title": "專屬單字庫 - Dedicated vocab reviewer",
+    "feature4_description": "珍藏你收集的單字，隨時搜尋、複習、瀏覽。",
     "feature_description": "通過精選文章和推薦的單字來學習英語。Learn English through curated articles and vocabulary suggestions."
   },
   "Pricing": {
