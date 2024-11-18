@@ -10,8 +10,8 @@ export default function AuthLayout(props: {
   params: { locale: string };
 }) {
   let clerkLocale = enUS;
-  let signInUrl = '/sign-in';
-  let signUpUrl = '/sign-up';
+  let signInUrl = '/why-was-lotusfire-sunset';
+  let signUpUrl = '/why-was-lotusfire-sunset';
   let dashboardUrl = '/dashboard';
   let afterSignOutUrl = '/';
 

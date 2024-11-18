@@ -20,30 +20,28 @@ export const PricingInformation = (props: {
           button={props.buttonList[plan.id]}
         >
           <PricingFeature>
-            {t('feature_team_member', {
-              number: plan.features.teamMember,
-            })}
+            無限内容 - Unlimited content
           </PricingFeature>
-
           <PricingFeature>
-            {t('feature_website', {
-              number: plan.features.website,
-            })}
+            無限詞匯 - Unlimited vocabulary
           </PricingFeature>
+          {(plan.price > 0
+            ? (
+                <PricingFeature>
+                  無廣告 - without ads
+                </PricingFeature>
+              )
+            : (
+                <PricingFeature>有廣告 - ad-supported</PricingFeature>
+              ))}
 
-          <PricingFeature>
-            {t('feature_storage', {
-              number: plan.features.storage,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>
-            {t('feature_transfer', {
-              number: plan.features.transfer,
-            })}
-          </PricingFeature>
-
-          <PricingFeature>{t('feature_email_support')}</PricingFeature>
+          {(plan.price > 0
+            && (
+              <PricingFeature>
+                {t('feature_email_support')}
+              </PricingFeature>
+            )
+          )}
         </PricingCard>
       ))}
     </div>

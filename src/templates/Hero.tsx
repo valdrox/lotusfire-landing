@@ -1,13 +1,18 @@
-import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+'use client'; // Add this at the top of the file
+
+import { InstagramLogoIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
+import { AppStoreButton, ButtonsContainer, GooglePlayButton } from 'react-mobile-app-button';
 
 import { badgeVariants } from '@/components/ui/badgeVariants';
-import { buttonVariants } from '@/components/ui/buttonVariants';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
 
 export const Hero = () => {
   const t = useTranslations('Hero');
+
+  const APKUrl = '/why-was-lotusfire-sunset';
+  const IOSUrl = '/why-was-lotusfire-sunset';
 
   return (
     <Section className="py-36">
@@ -15,11 +20,11 @@ export const Hero = () => {
         banner={(
           <a
             className={badgeVariants()}
-            href="https://twitter.com/ixartz"
+            href="https://www.instagram.com/lotusfire_app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <TwitterLogoIcon className="mr-1 size-5" />
+            <InstagramLogoIcon className="mr-1 size-5" />
             {' '}
             {t('follow_twitter')}
           </a>
@@ -33,22 +38,21 @@ export const Hero = () => {
         })}
         description={t('description')}
         buttons={(
-          <>
-            <a
-              className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
-              {t('primary_button')}
-            </a>
+          <ButtonsContainer>
 
-            <a
-              className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
-              <GitHubLogoIcon className="mr-2 size-5" />
-              {t('secondary_button')}
-            </a>
-          </>
+            <GooglePlayButton
+              url={APKUrl}
+              theme="dark"
+              className="tp-button-play-style"
+            />
+
+            <AppStoreButton
+              url={IOSUrl}
+              theme="dark"
+              className="tp-button-apple-style"
+            />
+          </ButtonsContainer>
+
         )}
       />
     </Section>

@@ -28,8 +28,8 @@ export default function middleware(
   event: NextFetchEvent,
 ) {
   if (
-    request.nextUrl.pathname.includes('/sign-in')
-    || request.nextUrl.pathname.includes('/sign-up')
+    request.nextUrl.pathname.includes('/why-was-lotusfire-sunset')
+    || request.nextUrl.pathname.includes('/why-was-lotusfire-sunset')
     || isProtectedRoute(request)
   ) {
     return clerkMiddleware((auth, req) => {
@@ -39,7 +39,7 @@ export default function middleware(
         const locale
           = req.nextUrl.pathname.match(/(\/.*)\/dashboard/)?.at(1) ?? '';
 
-        const signInUrl = new URL(`${locale}/sign-in`, req.url);
+        const signInUrl = new URL(`${locale}/why-was-lotusfire-sunset`, req.url);
 
         authObj.protect({
           // `unauthenticatedUrl` is needed to avoid error: "Unable to find `next-intl` locale because the middleware didn't run on this request"

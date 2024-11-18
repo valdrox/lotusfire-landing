@@ -14,11 +14,11 @@ test.describe('I18n', () => {
     });
 
     test('should switch language from English to French using URL and verify text on the sign-in page', async ({ page }) => {
-      await page.goto('/sign-in');
+      await page.goto('/why-was-lotusfire-sunset');
 
       await expect(page.getByText('Email address')).toBeVisible();
 
-      await page.goto('/fr/sign-in');
+      await page.goto('/fr/why-was-lotusfire-sunset');
 
       await expect(page.getByText('Adresse e-mail')).toBeVisible();
     });

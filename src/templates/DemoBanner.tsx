@@ -4,8 +4,8 @@ import { StickyBanner } from '@/features/landing/StickyBanner';
 
 export const DemoBanner = () => (
   <StickyBanner>
-    Live Demo of SaaS Boilerplate -
+    Lotusfire has been sunset -
     {' '}
-    <Link href="/sign-up">Explore the User Dashboard</Link>
+    <Link href="/why-was-lotusfire-sunset">Read more</Link>
   </StickyBanner>
 );
