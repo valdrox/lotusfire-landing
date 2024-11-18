@@ -54,10 +54,12 @@
     "feature_website": "{number} 網站 / Websites",
     "feature_storage": "{number} GB 儲存空間 / Storage",
     "feature_transfer": "{number} TB 傳輸 / Transfer",
-    "feature_email_support": "FB支援 / Facebook Support",
+    "feature_email_support": "FB支援 - Facebook Support",
     "plan_interval_month": "月 - month",
     "plan_interval_year": "年 - year",
-    "next_renew_date": "您的訂閱將於 {date} 續訂 / Your subscription renews on {date}"
+    "next_renew_date": "您的訂閱將於 {date} 續訂 / Your subscription renews on {date}",
+    "physical_plan_name": "HDMI Dongle",
+    "physical_plan_description": "for use with consoles, tvs, and computers"
   },
   "FAQ": {
     "question": "什麼是 Lotusfire？ What is Lotusfire?",

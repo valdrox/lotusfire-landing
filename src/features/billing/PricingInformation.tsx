@@ -38,6 +38,22 @@ export const PricingInformation = (props: {
           {(plan.price > 0
             && (
               <PricingFeature>
+                Desktop App
+              </PricingFeature>
+            )
+          )}
+
+          {(plan.price > 150
+            && (
+              <PricingFeature>
+                HDMI passthrough app
+              </PricingFeature>
+            )
+          )}
+
+          {(plan.price > 0
+            && (
+              <PricingFeature>
                 {t('feature_email_support')}
               </PricingFeature>
             )

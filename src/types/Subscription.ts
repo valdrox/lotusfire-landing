@@ -7,6 +7,7 @@ export type PlanId = EnumValues<typeof PLAN_ID>;
 export const BILLING_INTERVAL = {
   MONTH: 'month',
   YEAR: 'year',
+  ONE_TIME: 'one_time',
 } as const;
 
 export type BillingInterval = EnumValues<typeof BILLING_INTERVAL>;

@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import type { BillingInterval } from '@/types/Subscription';
+import { BILLING_INTERVAL, type BillingInterval } from '@/types/Subscription';
 
 export const PricingCard = (props: {
   planId: string;
@@ -23,9 +23,14 @@ export const PricingCard = (props: {
           {`$${props.price}`}
         </div>
 
-        <div className="ml-1 text-muted-foreground">
-          {`/ ${t(`plan_interval_${props.interval}`)}`}
-        </div>
+        {
+          props.interval !== BILLING_INTERVAL.ONE_TIME
+          && (
+            <div className="ml-1 text-muted-foreground">
+              {`/ ${t(`plan_interval_${props.interval}`)}`}
+            </div>
+          )
+        }
       </div>
 
       <div className="mt-2 text-sm text-muted-foreground">
