@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/valdrox/lotusfire-landing/compare/v1.2.0...v1.3.0) (2024-11-22)
+
+
+### Features
+
+* **landing:** adds sunset page ([eca9b7e](https://github.com/valdrox/lotusfire-landing/commit/eca9b7ee777499646499a4b4b30ee8d6ec67593d))
+
 # [1.2.0](https://github.com/valdrox/lotusfire-landing/compare/v1.1.0...v1.2.0) (2024-11-18)
 
 
