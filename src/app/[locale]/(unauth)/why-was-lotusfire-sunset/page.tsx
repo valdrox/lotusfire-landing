@@ -54,7 +54,7 @@ const WhyWasLotusfireSunsetPage = (props: { params: { locale: string } }) => {
           So, we flipped the problem. Instead of teaching Mandarin, we focused on teaching English—a massive global market with strong demand from parents investing in their children’s futures.
         </p>
         <p className="mb-6">
-          We built an app that let users engage with their regular content (like Facebook or Instagram) while learning words tailored to their interests and skill levels. The business model was simple: users could pay to remove ads shown when they interacted with words. This approach worked, and revenue grew at a respectable 4% weekly pace, but retention was very high, yet we knew other apps like Duolingo also had very high churn rates.
+          We built an app that let users engage with their regular content (like Facebook or Instagram) while learning words tailored to their interests and skill levels. The business model was simple: users could pay to remove ads shown when they interacted with words. This approach worked, and revenue grew at a respectable 4% weekly pace, but retention was very low, yet we knew other apps like Duolingo also had very high churn rates.
         </p>
         <p className="mb-6">
           We improved onboarding, notifications, and engagement, even reaching the top five education apps in Taiwan. But our efforts didn’t move the needle enough to make the business sustainable quickly enough.
