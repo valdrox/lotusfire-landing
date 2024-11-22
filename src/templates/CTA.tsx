@@ -15,7 +15,7 @@ export const CTA = () => {
         buttons={(
           <a
             className={buttonVariants({ variant: 'outline', size: 'lg' })}
-            href="https://github.com/ixartz/SaaS-Boilerplate"
+            href="/why-was-lotusfire-sunset"
           >
             {t('button_text')}
           </a>
