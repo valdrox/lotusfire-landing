@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/valdrox/lotusfire-landing/compare/v1.1.0...v1.2.0) (2024-11-18)
+
+
+### Features
+
+* **landing:** adds dongle pricing ([a494e52](https://github.com/valdrox/lotusfire-landing/commit/a494e52ccea2c1335eacae51ed7f75b4b1e7b3ee))
+
 # [1.1.0](https://github.com/valdrox/lotusfire-landing/compare/v1.0.0...v1.1.0) (2024-11-18)
 
 
